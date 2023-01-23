@@ -1,0 +1,121 @@
+/* BREAK POINT */
+
+/* PC interface */
+@media (min-width: 1024px) {
+    .logo {
+        margin-top: 4px;
+    }
+    .menu_btn {
+        display: none;
+    }
+}
+/* TABLET + MOBILE */
+@media (max-width: 1024px) {
+    .like_btn {
+        padding: 16px;
+    }
+    .cont_left {
+        line-height: 1.8;
+    }
+    .cont_ip {
+        padding: 16px 10px;
+    }
+    .cont_submit {
+        padding: 16px 24px;
+    }
+    #footer .media_list a{
+        margin: 0 8px;
+        font-size: 30px;
+    }
+}
+/* TABLET interface */
+@media (min-width: 740px) and (max-width: 1024px) {
+    #content .content_section {
+        width: auto;
+    }
+    .menu_btn {
+        display: none;
+    }
+}
+
+/* MOBILE interface */
+@media (max-width: 740px) {
+    /* Common Section */
+    .s_full_width,
+    .s_col_full {
+        width: 100% !important;
+    }
+    .s_mt8 {
+        margin-top: 8px;
+    }
+    /* MENU - Header Section */
+    .logo {
+        display: flex;
+        position: absolute;
+        right: 45%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    .nav {
+        display: block;
+        float: unset;
+        flex: 1;
+    }
+    .home {
+        display: inline-block;
+    }
+    .more {
+        width: auto;
+    }
+    .nav .subnav {
+        position: initial;
+    }
+    .nav .subnav li {
+        background-color: #333;
+        margin: -2px;
+    }
+    .nav .subnav a {
+        color: #fff;
+    }
+    .search_btn {
+        display: none;
+    }
+    .menu_btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 12px 24px;
+    }
+    .menu_btn:hover {
+        background-color: #ccc;
+    }
+    .menu_btn:hover > i {
+        color: #000;
+    }
+    /* --- */
+
+    /* CONTENT */
+    #content .mobile_chef_content {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .mobile_chef_content img {
+        width: 60%;
+        height: auto;
+    }
+    .rating_parent .rating_box {
+        width: 100%;
+    }
+    .rating_content {
+        text-align: initial;
+    }
+    .contact_form {
+        margin-top: 16px;
+    }
+    .like_btn {
+        color: #000;
+        background-color: #fff;
+        font-size: 30px;
+    }
+}
